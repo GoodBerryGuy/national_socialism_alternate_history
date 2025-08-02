@@ -9,7 +9,7 @@ card-image: img/sangerbund.jpg
 
 = Media
 
-The SPD runs a veritable media empire, with many newspapers throughout every German city and region. We could use the media for various purposes...
+The NSDAP runs a modest media empire, with many newspapers throughout the country. We could use the media for various purposes...
 
 - @commercial
 - @campaign
@@ -30,11 +30,11 @@ on-arrival: resources += 1; commercialized_media += 1; new_middle_nsdap += 4*(1 
 Our commercialized newspapers are able to bring in more funds. However, the left and labor factions express their displeasure.
 
 @campaign
-title: The purpose of our media is to elect more Social Democrats.
+title: The purpose of our media is to elect more National Socialists.
 subtitle: Our newspapers will focus on the electoral campaign.
 on-arrival: campaign_media += 1; rural_nsdap += 4*(1 - dissent); unemployed_nsdap += 2*(1-dissent); new_middle_nsdap += 4*(1 - dissent);
 
-Our campaign media is mostly reaching the workers who are already saturated with Socialist propaganda, but it must be doing *something*, or at least that is what we hope.
+Our campaign media is mostly reaching the unemployed who are already saturated with National Socialist propaganda, but it must be doing *something*, or at least that is what we hope.
 
 @ideological
 title: We will have vibrant ideological debate within our newspapers.
