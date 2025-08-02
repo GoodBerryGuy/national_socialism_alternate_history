@@ -45,7 +45,7 @@ This has been our media course historically, and it has successfully paved over 
 
 @radio
 title: We must keep on building up our newspaper.
-subtitle: -2 resources
+subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
 view-if: radio = 0
