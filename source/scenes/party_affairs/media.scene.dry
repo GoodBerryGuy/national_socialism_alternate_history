@@ -49,7 +49,7 @@ subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
 view-if: radio = 0
-on-arrival: radio += 1; resources -= 1; new_middle_spd += 4*(1 - dissent); old_middle_spd += 3*(1 - dissent); workers_spd += 2*(1 - dissent); labor_dissent += 5; socialism += 3*(1 - dissent); nationalism -= 3*(1 - dissent) if pacifism > 1; pro_republic += 3*(1-dissent) if democratization > 1
+on-arrival: radio += 1; resources -= 1; new_middle_nsdap += 4*(1 - dissent); old_middle_nsdap += 3*(1 - dissent); rural_nsdap += 2*(1 - dissent); labor_dissent += 5; socialism -= 3*(1 - dissent); nationalism += 3*(1 - dissent) if pacifism > 1; pro_republic -= 3*(1-dissent) if democratization > 1
 
 Our newspaper, the Völkischer Beobachter, is slowly growing alongside the NSDAP.
 
@@ -59,24 +59,25 @@ subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
 view-if: radio > 0 and radio <= 3
-on-arrival: radio += 1; resources -= 1; new_middle_spd += 5*(1 - dissent); old_middle_spd += 3*(1 - dissent); workers_spd += 3*(1 - dissent); socialism += 3*(1 - dissent); nationalism -= 3*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic += 3*(1-dissent)*(democratization-2) if democratization > 2
+on-arrival: radio += 1; resources -= 1; new_middle_nsdap += 5*(1 - dissent); old_middle_nsdap += 3*(1 - dissent); workers_nsdap += 3*(1 - dissent); socialism -= 3*(1 - dissent); nationalism += 3*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic -= 3*(1-dissent)*(democratization-2) if democratization > 2
 
 The Völkischer Beobachter has continued to spread the message of National Socialism and popularize the NSDAP.
 
 @radio_3
 title: Why not fund a radio station?
-subtitle: -2 resources
+subtitle: -3 resources
+unavailable-subtitle: Not enough resources.
 view-if: radio > 3 and radio <= 5 and year <= 1931
-on-arrival: radio += 1; resources -= 1;new_middle_spd += 5*(1 - dissent); old_middle_spd += 4*(1 - dissent); workers_spd += 4*(1 - dissent); rural_spd += 3*(1 - dissent); unemployed_spd += 2*(1-dissent); socialism += 3*(1 - dissent); nationalism -= 3*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic += 3*(1-dissent)*(democratization-2) if democratization > 2
+on-arrival: radio += 1; resources -= 3;new_middle_nsdap += 5*(1 - dissent); old_middle_nsdap += 4*(1 - dissent); workers_nsdap += 2*(1 - dissent); rural_nsdap += 3*(1 - dissent); unemployed_nsdap += 2*(1-dissent); socialism -= 3*(1 - dissent); nationalism += 3*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic -= 3*(1-dissent)*(democratization-2) if democratization > 2
 
 Our new radio station allows us to connect to people in a more intimate setting than before, spreading the message of national socialism along with music and other popular content. Since most proletarians cannot afford family radios right now, we are reaching the middle class, a fact of which our labor comrades are painfully aware.
 
 @radio_4
 title: We must keep on building up our radio network.
-subtitle: As radio becomes more common, the novelty is beginning to wear off, and radio is becoming saturated in society. -1 resources
+subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
 view-if: radio > 3 and (radio >= 6 or year >= 1932) and radio <= 9
-on-arrival: radio += 1; resources -= 1; new_middle_spd += 3*(1 - dissent); old_middle_spd += 2*(1 - dissent); workers_spd += 3*(1 - dissent); rural_spd += 2*(1 - dissent); unemployed_spd += 2*(1-dissent); socialism += 2*(1 - dissent); nationalism -= 2*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic += 2*(1-dissent)*(democratization-2) if democratization > 2
+on-arrival: radio += 1; resources -= 1; new_middle_nsdap += 3*(1 - dissent); old_middle_nsdap += 2*(1 - dissent); workers_nsdap += 3*(1 - dissent); rural_nsdap += 2*(1 - dissent); unemployed_nsdap += 2*(1-dissent); socialism -= 2*(1 - dissent); nationalism += 2*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic -= 2*(1-dissent)*(democratization-2) if democratization > 2
 
 Our new radio network has a mix of popular and political programming, and is proving a success.
