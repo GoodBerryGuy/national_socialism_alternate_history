@@ -82,6 +82,7 @@ Mass rallies are a common feature of national socialist life, especially in the 
 
 @class_struggle
 on-arrival: new_middle_nsdap += 4*(1-dissent); old_middle_nsdap += 4*(1-dissent); unemployed_nsdap += 3*(1-dissent)
+
 Our message of militarism and National Socialism appeals to the middle class, while potentially alienating the workers.
 
 @welfare
