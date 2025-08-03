@@ -24,15 +24,15 @@ The NSDAP runs a modest media empire, with many newspapers throughout the countr
 
 @commercial
 title: Make our newspapers more commercialized by broadening their appeal beyond party supporters.
-subtitle: This might upset ideological purists, but it may bring in more funds and perhaps expose the middle class to national socialist views.
-on-arrival: resources += 1; commercialized_media += 1; new_middle_nsdap += 4*(1 - dissent); old_middle_nsdap += 3*(1-dissent); left_dissent += 10; labor_dissent += 10
+subtitle: This might upset ideological purists, but it may bring in more funds and perhaps expose the workers to national socialist views.
+on-arrival: resources += 1; commercialized_media += 1; workers_nsdap += 5*(1 - dissent); left_dissent += 10; labor_dissent += 10
 
 Our commercialized newspapers are able to bring in more funds. However, the left and labor factions express their displeasure.
 
 @campaign
 title: The purpose of our media is to elect more National Socialists.
 subtitle: Our newspapers will focus on the electoral campaign.
-on-arrival: campaign_media += 1; rural_nsdap += 4*(1 - dissent); unemployed_nsdap += 2*(1-dissent); new_middle_nsdap += 4*(1 - dissent);
+on-arrival: campaign_media += 1; old_middle_nsdap += 4*(1 - dissent); unemployed_nsdap += 2*(1-dissent); new_middle_nsdap += 4*(1 - dissent);
 
 Our campaign media is mostly reaching the unemployed who are already saturated with National Socialist propaganda, but it must be doing *something*, or at least that is what we hope.
 
@@ -59,7 +59,7 @@ subtitle: -1 resources
 choose-if: resources >= 1
 unavailable-subtitle: Not enough resources.
 view-if: radio > 0 and radio <= 3
-on-arrival: radio += 1; resources -= 1; new_middle_nsdap += 5*(1 - dissent); old_middle_nsdap += 3*(1 - dissent); workers_nsdap += 3*(1 - dissent); socialism -= 3*(1 - dissent); nationalism += 3*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic -= 3*(1-dissent)*(democratization-2) if democratization > 2
+on-arrival: radio += 1; resources -= 1; new_middle_nsdap += 5*(1 - dissent); old_middle_nsdap += 3*(1 - dissent); rural_nsdap += 3*(1 - dissent); socialism -= 3*(1 - dissent); nationalism += 3*(1 - dissent)*(pacifism-2) if pacifism > 2; pro_republic -= 3*(1-dissent)*(democratization-2) if democratization > 2
 
 The Völkischer Beobachter has continued to spread the message of National Socialism and popularize the NSDAP.
 
