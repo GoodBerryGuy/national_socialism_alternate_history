@@ -9,7 +9,7 @@ card-image: img/sangerbund.jpg
 
 = Media
 
-The NSDAP runs a modest media empire, with many newspapers throughout the country. We could use the media for various purposes...
+The NSDAP runs a small newspaper, the Völkischer Beobachter. We could use the media for various purposes...
 
 - @commercial
 - @campaign
@@ -27,7 +27,7 @@ title: Make our newspapers more commercialized by broadening their appeal beyond
 subtitle: This might upset ideological purists, but it may bring in more funds and perhaps expose the workers to national socialist views.
 on-arrival: resources += 1; commercialized_media += 1; workers_nsdap += 5*(1 - dissent); left_dissent += 10; labor_dissent += 10
 
-Our commercialized newspapers are able to bring in more funds. However, the left and labor factions express their displeasure.
+Our commercialized newspaper is able to bring in more funds. However, the left and labor factions express their displeasure.
 
 @campaign
 title: The purpose of our media is to elect more National Socialists.
